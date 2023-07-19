@@ -6,14 +6,14 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="https://github.com/agungsapp"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Pavan MG
+          Agung Saputra
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> Love</span> &
+        <span className="text-gradient font-medium"> Love </span> &
         <span className="text-gradient font-medium"> Coffee</span>
       </p>
     </footer>
