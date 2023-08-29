@@ -2,12 +2,16 @@ import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 
+const CV_URL = process.env.PUBLIC_URL + "/cv/cv_agung_saputra.pdf";
+
 function Home() {
   const { name, tagline, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
   const h13 = useRef();
+  const h14 = useRef();
   const myimageref = useRef();
+
   useEffect(() => {
     const tl = gsap.timeline();
     tl.from(
@@ -34,6 +38,17 @@ function Home() {
       )
       .from(
         h13.current,
+        {
+          x: "-100%",
+          delay: 0.1,
+          opacity: 0,
+          duration: 2,
+          ease: "Power3.easeOut",
+        },
+        "<"
+      )
+      .from(
+        h14.current,
         {
           x: "-100%",
           delay: 0.1,
@@ -77,8 +92,19 @@ function Home() {
         >
           {tagline}
         </h2>
+
+        <div ref={h14} className="mt-11">
+          <a
+            href={CV_URL}
+            download="mycv.pdf"
+            target="._blank"
+            className="text-white px-5 py-3 rounded-2xl bg-sky-700 font-bold lg:text-2xl"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-16 lg:mt-7 md:mt-0">
         <img
           ref={myimageref}
           className="w-1/2 md:ml-auto rounded-full border-8 border-sky-300"

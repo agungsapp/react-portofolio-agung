@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1766bcfd.css",
-    "main.js": "/static/js/main.7a5cad7c.js",
+    "main.css": "/static/css/main.d8e508c8.css",
+    "main.js": "/static/js/main.abe145a5.js",
     "static/media/porto-prima-flora.jpg": "/static/media/porto-prima-flora.f20a5d00d6c85fe8bb5e.jpg",
     "static/media/porto-silaprak.jpg": "/static/media/porto-silaprak.f308512ebe8f42818db7.jpg",
     "static/media/pas.png": "/static/media/pas.48946652e12187d918cd.png",
@@ -9,14 +9,15 @@
     "static/media/porto-jetoz-steel.jpg": "/static/media/porto-jetoz-steel.096f06184da52f276c1d.jpg",
     "static/media/porto-psiki-web.jpg": "/static/media/porto-psiki-web.ba80164e2d750c7742b4.jpg",
     "static/media/porto-laporan-keuangan.jpg": "/static/media/porto-laporan-keuangan.884b62261358c0666015.jpg",
+    "static/media/codeigniter.png": "/static/media/codeigniter.fc2da6d6b0a039dcab30.png",
     "static/media/logo.svg": "/static/media/logo.e422ca86014ad14ed818361ce3d7a2a9.svg",
     "static/media/logo2.svg": "/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/index.html",
-    "main.1766bcfd.css.map": "/static/css/main.1766bcfd.css.map",
-    "main.7a5cad7c.js.map": "/static/js/main.7a5cad7c.js.map"
+    "main.d8e508c8.css.map": "/static/css/main.d8e508c8.css.map",
+    "main.abe145a5.js.map": "/static/js/main.abe145a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1766bcfd.css",
-    "static/js/main.7a5cad7c.js"
+    "static/css/main.d8e508c8.css",
+    "static/js/main.abe145a5.js"
   ]
 }

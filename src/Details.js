@@ -19,6 +19,8 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import laravel from "./assets/techstack/laravel.png";
+import codeigniter from "./assets/techstack/codeigniter.png";
 // Porject Images
 // import projectImage1 from "./assets/projects/project1.jpg";
 // import projectImage2 from "./assets/projects/project2.jpg";
@@ -144,6 +146,8 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  laravel: laravel,
+  codeigniter: codeigniter,
 };
 
 // Enter your Project Details here
