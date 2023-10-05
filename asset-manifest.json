@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.d8e508c8.css",
-    "main.js": "/static/js/main.abe145a5.js",
+    "main.js": "/static/js/main.a7927cc4.js",
     "static/media/porto-prima-flora.jpg": "/static/media/porto-prima-flora.f20a5d00d6c85fe8bb5e.jpg",
+    "static/media/porto-uns.jpg": "/static/media/porto-uns.46f7d68d2169d2a81c83.jpg",
     "static/media/porto-silaprak.jpg": "/static/media/porto-silaprak.f308512ebe8f42818db7.jpg",
     "static/media/pas.png": "/static/media/pas.48946652e12187d918cd.png",
     "static/media/porto-lms.jpg": "/static/media/porto-lms.84220c52113b869dd87b.jpg",
     "static/media/porto-jetoz-steel.jpg": "/static/media/porto-jetoz-steel.096f06184da52f276c1d.jpg",
     "static/media/porto-psiki-web.jpg": "/static/media/porto-psiki-web.ba80164e2d750c7742b4.jpg",
     "static/media/porto-laporan-keuangan.jpg": "/static/media/porto-laporan-keuangan.884b62261358c0666015.jpg",
+    "static/media/porto-pertamina.jpg": "/static/media/porto-pertamina.1db236d85e3e0eeabdf6.jpg",
     "static/media/codeigniter.png": "/static/media/codeigniter.fc2da6d6b0a039dcab30.png",
     "static/media/logo.svg": "/static/media/logo.e422ca86014ad14ed818361ce3d7a2a9.svg",
     "static/media/logo2.svg": "/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/index.html",
     "main.d8e508c8.css.map": "/static/css/main.d8e508c8.css.map",
-    "main.abe145a5.js.map": "/static/js/main.abe145a5.js.map"
+    "main.a7927cc4.js.map": "/static/js/main.a7927cc4.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e508c8.css",
-    "static/js/main.abe145a5.js"
+    "static/js/main.a7927cc4.js"
   ]
 }
