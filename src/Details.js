@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/pas.png";
+import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -36,6 +36,8 @@ import portofolioImage3 from "./assets/portofolio/porto-lms.jpg";
 import portofolioImage4 from "./assets/portofolio/porto-silaprak.jpg";
 import portofolioImage5 from "./assets/portofolio/porto-jetoz-steel.jpg";
 import portofolioImage6 from "./assets/portofolio/porto-prima-flora.jpg";
+import portofolioImage7 from "./assets/portofolio/porto-uns.jpg";
+import portofolioImage8 from "./assets/portofolio/porto-pertamina.jpg";
 
 // Logos
 export const logos = {
@@ -63,17 +65,17 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Web Developer",
-    Company: `CV. Jetoz Steel`,
-    Location: "Central Lampung",
-    Type: "Freelance",
-    Duration: "Sep 2022 - Oct 2022",
+    Company: `PT. Pertamina Patra Niaga`,
+    Location: "Bandar Lampung City",
+    Type: "Freelance | Onsite",
+    Duration: "Agu 2023 - Sep 2023",
   },
   {
     Position: "Web Developer",
-    Company: `CV. Prima Flora Nursery`,
-    Location: "Bandar Lampung City",
-    Type: "Freelance",
-    Duration: "Jan 2022 - Feb 2022",
+    Company: `Sebelas Maret University`,
+    Location: "Surakarta",
+    Type: "Freelace | Remote",
+    Duration: "Jun 2023 - Jul 2023",
   },
   // {
   //   Position: "Frontend Web Developer",
@@ -90,7 +92,7 @@ export const eduDetails = [
     Position: "Bachelor in Informatic Engineering",
     Company: `Institute Informatic and Business Darmajaya`,
     Location: "Bandar Lampung City",
-    Type: "Full Time",
+    Type: "Fresh Graduate",
     Duration: "Sep 2018 - May 2023",
   },
   {
@@ -128,6 +130,20 @@ export const eduDetails = [
     Type: "Full Time",
     Duration: "20 Mar 2023 - 3 Apr 2023 | 63 Hours Of Training",
   },
+  {
+    Position: "Learn to Create a Web Front-End for Beginners",
+    Company: "Dicoding",
+    Location: "Online",
+    Type: "Full Time",
+    Duration: "27 Sep 2023",
+  },
+  {
+    Position: "Learn to Create Web Applications with React",
+    Company: "Dicoding",
+    Location: "Online",
+    Type: "Full Time",
+    Duration: "02 Oct 2023",
+  },
 ];
 
 // Tech Stack and Tools
@@ -152,6 +168,22 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "point exchange application | PT. Pertamina Patra Niaga",
+    image: portofolioImage8,
+    description: `Building a Points Exchange Application to boost sales of Bright Gas products at every gas station in Lampung Province.`,
+    techstack: "Laravel, TailWind CSS, Jquery, Vite Js",
+    previewLink: "https://pangkalancaripelanggan.id/",
+    githubLink: "#",
+  },
+  {
+    title: "Portal Magister Pendidikan Ekonomi | Universitas Sebelas Maret",
+    image: portofolioImage7,
+    description: `Developing a website for the Master's Program in Economic Education at Sebelas Maret University Surakarta with a responsive design for mobile devices using the WordPress platform.`,
+    techstack: "WordPress, CSS",
+    previewLink: "https://mpe.fkip.uns.ac.id/",
+    githubLink: "#",
+  },
   {
     title: "Psiki Web",
     image: portofolioImage1,
