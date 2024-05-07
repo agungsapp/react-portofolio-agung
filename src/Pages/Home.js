@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 
-const CV_URL = process.env.PUBLIC_URL + "/cv/cv_agung_saputra.pdf";
+const CV_URL = process.env.PUBLIC_URL + "/cv/mycv_id.pdf";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -96,7 +96,7 @@ function Home() {
         <div ref={h14} className="mt-11">
           <a
             href={CV_URL}
-            download="mycv.pdf"
+            download="mycv_id.pdf"
             target="._blank"
             className="text-white px-5 py-3 rounded-2xl bg-sky-700 font-bold lg:text-2xl"
           >

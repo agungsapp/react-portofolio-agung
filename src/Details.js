@@ -4,7 +4,13 @@ import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
+
+
 // Tech stack images
+// new
+import nextjs from "./assets/techstack/next.webp";
+import ionic from "./assets/techstack/ionic.jpeg";
+import angular from "./assets/techstack/angular.png";
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 // import sass from "./assets/techstack/sass.png";
@@ -50,7 +56,7 @@ export const personalDetails = {
   name: "Agung Saputra",
   tagline: "I'm a Web Developer",
   img: profile,
-  about: `Hello. Introduce my name is Agung Saputra, I am a website developer, I like to learn new technologies and try to apply them, I have no other hobby than coding. I always try to complete the work assigned to me quickly and accurately. I always prioritize every trust given to me, because for me a trust that I do well is an achievement for me.`,
+  about: `Hello, I'm Agung Saputra, an enthusiastic and innovative website developer. I have a background in Computer Engineering and have demonstrated expertise in developing modern web technologies. As a Full Stack Developer, I have successfully delivered innovative solutions, including an engaging e-commerce platform. One of my recent projects involved developing an e-commerce platform for PT. Tunas Honda. In this project, I utilized technologies such as Bootstrap for responsive design, Laravel for robust backend development, and MySql for efficient database management. Additionally, I have experience in using other technologies such as React.js and Next.js to build dynamic and efficient user interfaces, as well as non-relational databases like Mongo DB to support scalability and speed in web application development. I enjoy learning new technologies and am always ready to apply my knowledge and skills to tackle new challenges. The trust placed in me is a great honor and motivation to consistently deliver the best in every project.`,
 };
 
 // Enter your Social Media URLs here
@@ -64,17 +70,24 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Full Stack Web Developer",
+    Company: `PT. Tunas Honda`,
+    Location: "Bandar Lampung City",
+    Type: "Onsite",
+    Duration: "Sep 2023 - Now",
+  },
+  {
     Position: "Web Developer",
     Company: `PT. Pertamina Patra Niaga`,
     Location: "Bandar Lampung City",
-    Type: "Freelance | Onsite",
+    Type: "Hybrid",
     Duration: "Agu 2023 - Sep 2023",
   },
   {
     Position: "Web Developer",
     Company: `Sebelas Maret University`,
     Location: "Surakarta",
-    Type: "Freelace | Remote",
+    Type: " Remote",
     Duration: "Jun 2023 - Jul 2023",
   },
   // {
@@ -92,56 +105,56 @@ export const eduDetails = [
     Position: "Bachelor in Informatic Engineering",
     Company: `Institute Informatic and Business Darmajaya`,
     Location: "Bandar Lampung City",
-    Type: "Fresh Graduate",
+    Type: "Graduate",
     Duration: "Sep 2018 - May 2023",
   },
   {
     Position: "Learn Basic Web Programming",
     Company: "Dicoding",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "05 - Sep - 2022",
   },
   {
     Position: "Learn Basic JavaScript Programming",
     Company: "Dicoding",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "20 - Oct - 2022",
   },
   {
     Position: "Cloud Practitioner Essentials (Learn AWS Cloud Basics)",
     Company: "Dicoding",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "24 - Feb - 2023",
   },
   {
     Position: "SQL (Intermediate)",
     Company: "HackerRank",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "26 - Feb - 2023",
   },
   {
     Position: "Junior Web Developer",
     Company: "Vocational School Graduate Academy",
     Location: "Hybrid",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "20 Mar 2023 - 3 Apr 2023 | 63 Hours Of Training",
   },
   {
     Position: "Learn to Create a Web Front-End for Beginners",
     Company: "Dicoding",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "27 Sep 2023",
   },
   {
     Position: "Learn to Create Web Applications with React",
     Company: "Dicoding",
     Location: "Online",
-    Type: "Full Time",
+    Type: "Online",
     Duration: "02 Oct 2023",
   },
 ];
@@ -164,6 +177,9 @@ export const techStackDetails = {
   figma: figma,
   laravel: laravel,
   codeigniter: codeigniter,
+  nextjs: nextjs,
+  ionic: ionic,
+  angular: angular,
 };
 
 // Enter your Project Details here

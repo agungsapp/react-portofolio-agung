@@ -18,7 +18,10 @@ function Technologies() {
     postman,
     figma,
     laravel,
-    codeigniter
+    codeigniter,
+    nextjs,
+    ionic,
+    angular,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -30,13 +33,16 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-start gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={html} title="html" alt="" />
         <img src={css} title="CSS" alt="" />
         <img src={js} title="JavaScript" alt="" />
-        <img src={react} title="React" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
+        <img src={react} title="React" alt="" />
+        <img src={nextjs} title="Next Js" alt="" />
+        <img src={ionic} title="Ionic" alt="" />
+        <img src={angular} title="Angular" alt="" />
         <img src={laravel} title="Laravel" alt="" />
         <img src={codeigniter} title="CodeIgniter" alt="" />
         <img src={redux} title="Redux" alt="" />
