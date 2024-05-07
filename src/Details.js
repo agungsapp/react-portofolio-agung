@@ -44,6 +44,7 @@ import portofolioImage5 from "./assets/portofolio/porto-jetoz-steel.jpg";
 import portofolioImage6 from "./assets/portofolio/porto-prima-flora.jpg";
 import portofolioImage7 from "./assets/portofolio/porto-uns.jpg";
 import portofolioImage8 from "./assets/portofolio/porto-pertamina.jpg";
+import portofolioImage9 from "./assets/portofolio/blimoto.png";
 
 // Logos
 export const logos = {
@@ -184,6 +185,14 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Blimoto | PT. Tunas Dwipa Matra",
+    image: portofolioImage9,
+    description: `Building an e-commerce application for buying and selling vehicles with a chatbot and vehicle recommendation features to support digital marketing sales.`,
+    techstack: "Laravel, Bootstrap, Jquery",
+    previewLink: "https://blimoto.com/",
+    githubLink: "#",
+  },
   {
     title: "point exchange application | PT. Pertamina Patra Niaga",
     image: portofolioImage8,
