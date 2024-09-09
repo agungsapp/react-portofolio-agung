@@ -185,14 +185,14 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
-  {
-    title: "Blimoto | PT. Tunas Dwipa Matra",
-    image: portofolioImage9,
-    description: `Building an e-commerce application for buying and selling vehicles with a chatbot and vehicle recommendation features to support digital marketing sales.`,
-    techstack: "Laravel, Bootstrap, Jquery",
-    previewLink: "https://blimoto.com/",
-    githubLink: "#",
-  },
+  // {
+  //   title: "Blimoto | PT. Tunas Dwipa Matra",
+  //   image: portofolioImage9,
+  //   description: `Building an e-commerce application for buying and selling vehicles with a chatbot and vehicle recommendation features to support digital marketing sales.`,
+  //   techstack: "Laravel, Bootstrap, Jquery",
+  //   previewLink: "https://blimoto.com/",
+  //   githubLink: "#",
+  // },
   {
     title: "point exchange application | PT. Pertamina Patra Niaga",
     image: portofolioImage8,
